@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p {
+    margin: 0;
+}
+.navbar {
+    display: grid;
+    padding: 2rem;
+    box-shadow: 0rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+}
+.hero {
+    display: grid;
+    padding: 2rem;
+    gap: 1rem;
+}
+.hero img {
+    width: 75%;
+    justify-self: center;
+}
+.hero h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 0;
+}
+.hero p {
+    font-weight: 400;
+    margin-right: 50%;
+}
+.rating-card {
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+}
+.rating-content {
+    display: grid;
+    gap: 0.25rem;
+}
+.badge{
+    position: relative;
+    background-color: white;
+    margin: 0.5rem;
+    padding: 0 0.25rem;
+    top: 2.5rem;
+    width: fit-content;
+}
+.rating {
+    display: flex;
+    align-items: center;
+}
+.cardImg {
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    height: 15rem;
+}
+.star {
+    width: 0.75rem;
+}
+.gray {
+    color: #918E9B;
+}
+.bold {
+    font-weight: bold;
+}
+section {
+    padding: 20px;
+}
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+@media (max-width:425px) {
+    .hero img {
+        width: 100%;
+    }
+    .hero {
+        padding: 1rem;
+    }
+    .hero p {
+        margin-right: 0;
+    }
+}
