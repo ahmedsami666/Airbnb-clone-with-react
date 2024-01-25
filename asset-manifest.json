@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/react-gh-pages/static/js/main.ff603a86.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.ff603a86.js.map": "/react-gh-pages/static/js/main.ff603a86.js.map"
+    "main.js": "/Airbnb-clone-with-react/static/js/main.ff603a86.js",
+    "index.html": "/Airbnb-clone-with-react/index.html",
+    "main.ff603a86.js.map": "/Airbnb-clone-with-react/static/js/main.ff603a86.js.map"
   },
   "entrypoints": [
     "static/js/main.ff603a86.js"
