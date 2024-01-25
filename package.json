@@ -2,7 +2,7 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ahmedsami666.github.io/react-gh-pages",
+  "homepage": "https://ahmedsami666.github.io/Airbnb-clone-with-react",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
